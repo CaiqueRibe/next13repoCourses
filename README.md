@@ -53,3 +53,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -  No component state. We can not use the `useState` hook.
 -  No component lifecycle methods.
 -  We can not use the `useEffect hook.
+
+---
+
+# 1st commit
+
+-  Routes
+-  RSC
+-  Suspense
+-  Cache & revalidate
+
+# 2nd commit
+
+-  Params on URL
+-  Client side component vs RSC
