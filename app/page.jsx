@@ -26,6 +26,13 @@ const HomePage = () => {
    return (
       <div>
          <h1>Welcome to Traversy Media</h1>
+         <Link
+            href={"/create"}
+            className="btn"
+            style={{ position: "absolute", top: "175px", right: "25px", fontSize: "1.3em" }}
+         >
+            Create Course
+         </Link>
          <CourseSearch getSearchResults={(results) => setCourses(results)} />
          <Courses courses={courses} />
       </div>

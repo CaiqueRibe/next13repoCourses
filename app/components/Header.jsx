@@ -5,12 +5,14 @@ const Header = () => {
       <header className="header">
          <div className="container">
             <div className="logo">
-               <Link href="/">Traversy Media</Link>
+               <h1>Traversy Media</h1>
             </div>
             <div className="links">
+               <Link href={"/"}>Home</Link>
+               <Link href="/create ">Create</Link>
+               <Link href="/code/repos ">Code</Link>
                <Link href="/about ">About</Link>
                <Link href="/about/team ">Our Team</Link>
-               <Link href="/code/repos ">Code</Link>
             </div>
          </div>
       </header>

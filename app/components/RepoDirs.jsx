@@ -1,16 +1,13 @@
 import Link from "next/link"
 
 async function fetchRepoContents(name) {
-   await new Promise((resolve) => setTimeout(resolve, 3000))
+   await new Promise((resolve) => setTimeout(resolve, 5000))
 
-   const res = await fetch(
-      `https://api.github.com/repos/CaiqueRibe/${name}/contents`,
-      {
-         next: {
-            revalidate: 60,
-         },
-      }
-   )
+   const res = await fetch(`https://api.github.com/repos/CaiqueRibe/${name}/contents`, {
+      next: {
+         revalidate: 60,
+      },
+   })
    const json = await res.json()
    return json
 }
@@ -25,9 +22,7 @@ const RepoDirs = async ({ name }) => {
          <ul>
             {dirs.map((dir) => (
                <li key={dir.path}>
-                  <Link href={`/code/repos/${name}/${dir.path}`}>
-                     {dir.name}
-                  </Link>
+                  <Link href={`/code/repos/${name}/${dir.path}`}>{dir.name}</Link>
                </li>
             ))}
          </ul>

@@ -1,43 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="image.png" alt="Alt text" width="600">
 
-## Getting Started
+# Next.js 13 Crash Course | App Directory, React Server Components & More
 
-First, run the development server:
+https://www.youtube.com/watch?v=Y6KDk5iyrYE&ab_channel=TraversyMedia
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> A complete crash course to NextJS version 13 and it's new features such as the app directory structure, routing, React Server Components vs client components, layouts and more.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Project --> **List from an API and list from DB** <br>
+Channel --> **Traversy Media 2,15 mi de inscritos** <br>
+Date Created --> **5 de abr. de 2023**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Observations
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-  created-with-next13js
+-  react-icons
+-  uuid
+-  autoLoading page for RSC
+-  Suspense component
+-  api in nextjs
+   -  route to searched courses
 
-## Learn More
+### Components
 
-To learn more about Next.js, take a look at the following resources:
-
--  [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--  [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-  page.jsx (client)
+   -  coursesSearch (server)
+   -  courses (client)
+-  loading.jsx (server)
+   -  create/page (client)
+   -  header (server)
+   -  code
+      -  ReposPage
+         -  RepoPage[name] details
+   -  about
+      -  team
+   -  api
+      -  helloWorld
+      -  courses
+         -  search from url parameter
 
 ## Advantages of RSC (React ServerSide Components)
 
-#### By default in next.js components are created on serverSide unless you specify that they are client components
+### By default in next.js components are created on serverSide unless you specify that they are client components
 
 -  Load faster - Don't have to wait for the JavaScript to load
 -  Smaller client bundle size
@@ -47,23 +50,26 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -  More secure against XSS attacks
 -  Improved developer experience
 
-## Just like with anything else, there are also disadvantages
+### Just like with anything else, there are also disadvantages
 
 -  Not as interactive
 -  No component state. We can not use the `useState` hook.
 -  No component lifecycle methods.
 -  We can not use the `useEffect hook.
 
----
+<br>
+<br>
 
-# 1st commit
+## Commits
+
+### 1st commit
 
 -  Routes
 -  RSC
 -  Suspense
 -  Cache & revalidate
 
-# 2nd commit
+### 2nd commit
 
 -  Params on URL
 -  Client side component vs RSC
