@@ -73,3 +73,37 @@ Date Created --> **5 de abr. de 2023**
 
 -  Params on URL
 -  Client side component vs RSC
+
+
+
+---
+
+
+
+### Timestamps <br>
+0:00 - Intro <br>
+2:32 - Setup & File Structure<br>
+5:22 - Homepage & Clean Up<br>
+7:12 - Routing System <br>
+10:02 - Nested Routes <br>
+11:04 - Layouts <br>
+13:37 - Metadata API <br>
+15:31 - next/font/google <br>
+19:10 - Header Component <br>
+21:19 - React Server Components <br>
+23:26 - use client <br>
+24:13 - Data Fetching <br>
+28:05 - ReposPage Output <br>
+31:47 - Custom Loading Page <br>
+34:16 - Dynamic Routes <br>
+35:30 - params Prop <br>
+37:07 - Repo & RepoDir Component <br>
+45:57 - Suspense Boundaries <br>
+48:29 - Caching & Revalidating <br>
+51:30 - API Route Handlers <br> 
+53:49 - Serving Course Data <br>
+56:00 - Fetching Course Data <br>
+1:00:32 - Getting Search Params  <br>
+1:06:00 - Getting Body Data <br>
+1:10:00 - Refactor Server to Client Component <br>
+1:16:30 - Search Component <br>
